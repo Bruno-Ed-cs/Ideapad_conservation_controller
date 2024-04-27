@@ -11,11 +11,19 @@ The script interacts with the `ideapad_acpi` driver responsible for managing the
 
 1. **Check Conservation Mode Status**:
 
+$ conservation.sh
+
 2. **Turn Conservation Mode Off**:
+
+$ conservation.sh -off
 
 3. **Turn Conservation Mode On**:
 
+$ conservation.sh -on
+
 4. **Help**:
+
+$ conservation.sh -help
 
 ## Installation
 
@@ -23,8 +31,10 @@ The script interacts with the `ideapad_acpi` driver responsible for managing the
 
 2. **Make it Executable**: Run the following command in the terminal:
 
-3. **Add to .bashrc (Optional)**: To access the script from anywhere in the terminal, add the following line to your `.bashrc` or `.bash_profile`:
+$ chmod +x conservation.sh
 
+3. **Add to .bashrc (Optional)**: To access the script from anywhere in the terminal, add the following line to your `.bashrc` or `.bash_profile`:
+export PATH="$PATH:/path/to/directory"
 Replace `/path/to/directory` with the path where you saved the `conservation.sh` script.
 
 ## Note
